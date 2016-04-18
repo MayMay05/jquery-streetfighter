@@ -29,14 +29,10 @@ function playHadouken () {
   $('#hadouken-sound')[0].load();
   $('#hadouken-sound')[0].play();
 }
-$('').keydown(function(e) {
-    if (e.keyCode == 88) {
+$('.ryu').keydown(function() {
        $('.ryu-ready').hide();
-       $('.ryu-cool').show();
-    }     
-}).keyup(function(e) {
-    if (e.keyCode == 88) {
+       $('.ryu-cool').show();     
+}).keyup(function() {
        $('.ryu-cool').hide();
        $('.ryu-still').show();
-    }
 });
