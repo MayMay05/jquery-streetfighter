@@ -30,8 +30,8 @@ $(document).keydown(function (e) {
       $('.ryu-cool').show();
     }
   }).keyup(function () {
-    $('.ryu-cool').hide();
-    $('.ryu-ready').show();
+      $('.ryu-cool').hide();
+      $('.ryu-ready').show();
   });
 
 });
