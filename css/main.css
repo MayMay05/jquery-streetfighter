@@ -45,25 +45,23 @@ body {
   display: none;
 }
 .text-content {
-    position: absolute;
+	position: absolute;
     left: 650px;
-    height: 425px;
-    width: 600px;
+    height: 494px;
+    width: 640px;
     padding-top: 75px;
 }
-.text-content {
-    display: none;
-    color: black;
-    font-family: comical;
-    font-size: 50px;
+.how-to {
+    display: block;
     width: 600px;
 }
-.text-content p + p {
+.how-to p + p {
     margin-left: 275px;
 }
-.text-content p {
+.how-to p {
     width: 50%;
     color: black;
     font-size: 24px;
+    font-family: comical;
     line-height: 45px;
 }
